@@ -189,7 +189,7 @@ $d = strtolower($_POST["domain"]);
 $n = substr(md5(rand()), 0, 5);
 $tags = "<meta http-equiv=\"refresh\" content=\"0; url=$s\" />";
 $host = $_SERVER['SERVER_NAME'];
-$availableDomains = array("thiccbit.ch", "nuttysu.cc", "kpop4.us", "demoted.me", "getfuc.tk", "iplogger.tk", "iplogger.ga", "iplogger.cf", "iplogger.gq", "broke-nig.ga", "fat-nig.ga", "autistic-nig.ga", "weaboo-nig.ga", "dumb-nig.ga", "kys-nig.ga", "egirl-chasing-ass-nig.ga", "yungsweaty-lookin-ass-nig.ga", "only-half-nig.ga", "a-shit.host", "big-pecker.fun", "discord-bot.racing", "hack-your.webcam", "hack-your.website", "is-a.science", "is-a-bad.site", "is-never.online", "is-no.fun", "mlg-pro.life", "nekos.download", "nigga.science", "north-korea-will.win", "retarded.men", "small-penis.club", "the-nigger.store");
+$availableDomains = array("Your domains go here");
 
 if(!isset($s) || empty($s)) {
     die();
